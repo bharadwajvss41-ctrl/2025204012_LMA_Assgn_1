@@ -54,7 +54,7 @@ Notes:
 - It hurt the erasure query and gave no gain on several others. The Cross-Encoder was trained on web-search data (MS MARCO), not legal text.
 - Re-ranking added about 1.8 s per query on a Colab CPU, roughly 12 times the baseline retrieval time. Cross-Encoder cost grows linearly with the number of chunks (about 157 ms per chunk), which is why it is used only on a short candidate list.
 
-See `report.pdf` for the full analysis.
+See `RAG BASELINE VS RERANKING.pdf` for the full analysis.
 
 ## Limitations
 
