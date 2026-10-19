@@ -1,0 +1,7 @@
+Stage,Mean (ms),Median (ms),Max (ms)
+Pipeline 1: query embedding (API),148.3,152.7,170.0
+Pipeline 1: FAISS search (top 10),0.2,0.2,0.4
+Pipeline 1 total retrieval,148.5,152.9,170.2
+Pipeline 2 extra: Cross-Encoder rerank,1807.1,1445.4,4567.1
+Pipeline 2 total retrieval (P1 + rerank),1955.6,1586.0,4717.1
+LLM answer generation (either pipeline),2971.2,2871.9,5106.1
